@@ -1,0 +1,17 @@
+# This is the list of patches to apply to the Buildroot external tree
+# First column is either:
+#   * a MD5 sum of the file to patch (i.e. the target file)
+#   * a line of minus signs ('-') indicates a file that we remove from Buildroot external tree
+#   * a line of plus signs ('+') indicates a file that we add to the Buildroot external tree
+
+++++++++++++++++++++++++++++++++  package/pkg-rust.mk
+72fe1d9ca9b9b791a3a50d5ff9371f52  package/libdrm/libdrm.hash
+7d250d3076d1f4e49ca0536684449e2a  package/libdrm/libdrm.mk
+b0e237fcce50eebfb67bdf5a78c753df  package/rust-bin/rust-bin.hash
+4471cc78df586db10863c49bc499ac9f  package/rust-bin/rust-bin.mk
+5b088a0fdb4280bcbba47d4ad327414a  package/rust/rust.hash
+5ffe16685a652f9ba3b20f174271fa67  package/rust/rust.mk
+32c68065c4cc62e1bfb9af0a4ea97040  support/kconfig/confdata.c
+1aa6b2dd02df45f36c6de3e486d7bf0d  support/kconfig/util.c
+407a39abadfdac103474731ceac19ab4  toolchain/Config.in
+72c059e6f2c720a4354d80f887d0a111  toolchain/toolchain-external/toolchain-external-custom/Config.in.options

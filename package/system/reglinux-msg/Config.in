@@ -1,0 +1,10 @@
+config BR2_PACKAGE_REGLINUX_MSG
+	bool "reglinux-msg"
+	select BR2_PACKAGE_HOST_RUSTC_TARGET_ARCH_SUPPORTS
+	select BR2_PACKAGE_HOST_RUSTC
+	select BR2_PACKAGE_LIBDRM
+
+	help
+	  Manages screen resolution and display settings
+
+	  https://github.com/REG-Linux/regmsg
