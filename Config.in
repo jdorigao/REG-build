@@ -4,6 +4,10 @@ menu "Boot"
 	source "$BR2_EXTERNAL_REGLINUX_PATH/package/boot/plymouth/Config.in"
 endmenu
 
+menu "Engines"
+	source "$BR2_EXTERNAL_REGLINUX_PATH/package/engines/scummvm/Config.in"
+endmenu
+
 menu "System"
 	source "$BR2_EXTERNAL_REGLINUX_PATH/package/system/reglinux-msg/Config.in"
 endmenu

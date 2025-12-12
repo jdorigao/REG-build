@@ -5,6 +5,7 @@
 #   * a line of plus signs ('+') indicates a file that we add to the Buildroot external tree
 
 ++++++++++++++++++++++++++++++++  package/pkg-rust.mk
+53f27efde85000eadeca0bd939000a79  package/binutils/binutils.mk
 72fe1d9ca9b9b791a3a50d5ff9371f52  package/libdrm/libdrm.hash
 7d250d3076d1f4e49ca0536684449e2a  package/libdrm/libdrm.mk
 b0e237fcce50eebfb67bdf5a78c753df  package/rust-bin/rust-bin.hash
